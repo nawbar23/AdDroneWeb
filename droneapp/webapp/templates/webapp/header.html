@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<title>Testowa strona</title>
+	<meta charset="utf-8" />
+  <!-- loading files from /static folder (for example: bootstrap files) -->
+  {% load staticfiles %}
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
+  <!-- Example of overwrite bootstrap css -->
+  <link rel="stylesheet" href="{% static 'css/mycss.css' %}" type = "text/css"/>
+	<script src="{% static 'js/bootstrap.min.js' %}" type=JavaScript></script>
+  <!-- Bootstrap CND !! -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+</head>
+<body class="body" style="background-color:#f6f6f6">
+
+	   {% block content %}
+	   {% endblock %}
+
+</body>
+</html>
