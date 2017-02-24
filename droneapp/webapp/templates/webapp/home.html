@@ -1,7 +1,14 @@
 {% extends "webapp/header.html" %}
 
 {% block content %}
-<p>
-  Paragraf z pliku home!
-</p>
+    <div class="row">
+        <div class="col-sm-6" ng-app="MapMod" ng-controller="mapController"><br>
+  			    <div id="map"></div>
+  					<h4>Latitude: {{lat}}<br>Longtitude: {{lon}}</h4>
+        </div>
+  			<div class="col-sm-6">
+  			    <h4>Hello jestem w live stream</h4>
+  			</div>
+  	    <br>
+    </div>
 {% endblock %}
