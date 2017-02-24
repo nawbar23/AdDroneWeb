@@ -8,7 +8,13 @@
   {% load staticfiles %}
   <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type = "text/css"/>
   <!-- Example of overwrite bootstrap css -->
+  <!-- <link rel="stylesheet" href="{% static 'css/mycss.css' %}" type = "text/css"/> -->
   <link rel="stylesheet" href="{% static 'css/style.css' %}" type = "text/css"/>
+
+	<!-- to js working you must in cmd instal module "pip install django-javascript-settings"    -->
+	{% load javascript_settings_tags %}
+	<script type="text/javascript">{% javascript_settings %}</script>
+	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 	<script src="{% static 'js/bootstrap.min.js' %}" type=JavaScript></script>
 	<script src="{% static 'js/map.js' %}" type=JavaScript></script>
   <!-- Bootstrap CND !! -->
