@@ -1,0 +1,63 @@
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+	font-size: 24px;
+    background-color: #337ab7;
+}
+
+.navbar-inverse {
+	font-size: 16px;
+	border-radius: 0px; 
+	background-color: #001a4d;
+}
+
+.navbar-nav,
+.container-flex {
+	width: 100%;
+}
+
+.img-responsive {
+	display: inline;
+}
+
+.footer {
+	color: #000000;
+}
+
+.tab-content {
+	background-color: rgba(119, 145, 199, 0.58);
+	height: 100%;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.row {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h4 {
+	text-align: center;
+	color: #ffffff;
+}
+
+.nav>li{
+	width: 30%;
+	text-align: center;
+}
+
+#map {
+	height: 50%;
+}
+
+.logo {
+	text-align: center;
+	background-color: #fff;
+}
+
+.container {
+	margin-bottom: 1%;
+}
