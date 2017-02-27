@@ -1,0 +1,125 @@
+{% extends "webapp/header.html" %}
+
+{% block content %}
+   <div class="tab-content" ng-controller="MainCtrl" ng-app="droneApp">
+        <div id="logs">
+          <div class="row">
+            <div class="col-sm-4">
+
+            <ul class="nav nav-pills nav-stacked" id="list">
+                    <li class="active"><a href="#state" data-toggle="tab">Id 1  start 12:30:43 end 12:56:23</a></li>
+                    <li><a href="#latitude" data-toggle="tab">Id 2  start 13:40:30 end 14:56:23</a></li>
+                    <li><a href="#longitude" data-toggle="tab">Id 3 start 16:30:43 end 18:36:26</a></li>
+                    <li><a href="#altitude" data-toggle="tab">Id 4  start 17:30:05 end 17:56:23</a></li>
+                    <li><a href="#velocity" data-toggle="tab">Id 5  start 18:55:40 end 18:58:23</a></li>
+                    <li><a href="#battery" data-toggle="tab">Id 6  start 19:36:53 end 12:56:23</a></li>
+                    <li><a href="#history" data-toggle="tab">Id 7  start 20:30:23 end 12:56:23</a></li>
+                    <li><a href="#timestamp" data-toggle="tab">Id 8  start 21:37:42 end 12:56:23</a></li>
+                  </ul>
+            </div>
+            
+            <div class="col-sm-8">
+                <div class="tab-content" ng-controller="MainCtrl" ng-app="droneApp">
+                  <img src="mapa.jpg" id="map1" alt="zdjęcie" width="460" height="345app.jpg">
+                  <div class="tab-pane fade in active"  id="state">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="latitude">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="longitude">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="altitude">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="velocity">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="battery">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="history">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                  </div>
+                <div class="tab-pane fade"  id="timestamp">
+                  <ul>
+                    <li>Control_state</li>
+                    <li>Latitude</li>
+                    <li>Longitude</li>
+                    <li>Altitude</li>
+                    <li>Velocity</li>
+                    <li>Battery</li>
+                    <li>Id_flight_history</li>
+                    <li>Timestamp</li>
+                  </ul> 
+                </div>  
+              </div>
+            </div>
+          </div>
+          </div>
+          </div>
+{% endblock %}

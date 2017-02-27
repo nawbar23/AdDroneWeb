@@ -8,7 +8,7 @@ class Drone_info(models.Model):
     velocity = models.FloatField()
     batery = models.FloatField()
     timestamp = models.DateTimeField()
-    id_fly_history = models.ForeignKey('Drone_info', on_delete=models.CASCADE)
+    id_fly_history = models.IntegerField();#models.ForeignKey('Drone_info', on_delete=models.CASCADE)
 
 class Fly_history(models.Model):
     time_start = models.DateTimeField()

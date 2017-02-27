@@ -28,9 +28,9 @@
 	</div>
 	<nav class="navbar navbar-inverse">
 			<ul class="nav navbar-nav">
-			    <li><a href="/home.html/">Home</a></li>
-					<li><a href="/history.html">Logs</a></li>
-					<li><a href="/carousel.html">Adds</a></li>
+			    <li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="{% url 'history' %}">Logs</a></li>
+					<li><a href="{% url 'adds' %}">Adds</a></li>
       </ul>
 	</nav>
 	   {% block content %}
